@@ -4,3 +4,4 @@
 看一下效果图
 
 增
+![](https://github.com/cai784921129/GreenDaoDemo/blob/master/app/gif/add.gif?raw=true)
