@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GreenDAODemo</string>
+    <string name="name_hint">Type employee\'s name</string>
+    <string name="address_hint">Type salary</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="search_hint">Type a name</string>
+    <string name="delete_alert">Delete this item?</string>
+    <string name="delete">Delete</string>
+    <string name="no_employee">Find no employee!</string>
+    <string name="update_succeed">Updated!</string>
+    <string name="name_required">Name is required</string>
+    <string name="action_search">Search</string>
+    <string name="empty_text">Nothing to show</string>
+</resources>
