@@ -220,5 +220,13 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    public void oneToMore(View view){
+        Intent intent = new Intent(this,MsgActivity.class);
+        startActivity(intent);
+    }
 
+    public void fenye(View view){
+        Intent intent = new Intent(this,LimitActivity.class);
+        startActivity(intent);
+    }
 }

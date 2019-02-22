@@ -52,17 +52,18 @@ public class MyAdapter extends BaseAdapter{
         viewHolder.name.setText(book.getName());
         viewHolder.num.setText(book.getId()+"");
         viewHolder.price.setText(book.getPrice()+"");
-
+        viewHolder.time.setText(book.getAddress());
         return convertView;
     }
 
      class ViewHolder{
-        TextView num,price,name;
+        TextView num,price,name,time;
 
        public ViewHolder(View view){
            num = (TextView) view.findViewById(R.id.num);
            name = (TextView) view.findViewById(R.id.name);
            price = (TextView)view. findViewById(R.id.price);
+           time = (TextView)view. findViewById(R.id.time);
        }
     }
 }

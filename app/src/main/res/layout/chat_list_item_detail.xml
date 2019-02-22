@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="40dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
+
+    <RelativeLayout
+        android:id="@+id/list_item_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginBottom="50dp">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefresh_item_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" >
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <TextView
+            android:id="@+id/iv_no_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="暂无消息记录"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_centerInParent="true"/>
+
+        <ListView
+            android:id="@+id/lv_chat_list_item_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/iv_no_data"
+            android:divider="#efefef"
+            android:dividerHeight="1dp"
+            android:fadingEdge="none"
+            android:listSelector="#00000000"></ListView>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/sendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="发送"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

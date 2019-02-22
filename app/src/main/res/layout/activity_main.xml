@@ -83,5 +83,20 @@
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一对多对应关系"
+            android:onClick="oneToMore"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分页"
+            android:onClick="fenye"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
     </RelativeLayout>
+
 </LinearLayout>
