@@ -18,7 +18,9 @@
 四、查
 
 ![image](https://github.com/cai784921129/GreenDaoDemo/blob/master/app/gif/find.gif?raw=true)
+
 五、数据库表关联 1对多，常用语聊天页面
 ![image](https://github.com/cai784921129/GreenDaoDemo/blob/master/app/gif/chat.gif?raw=true)
+
 六、分页
 ![image](https://github.com/cai784921129/GreenDaoDemo/blob/master/app/gif/pager.gif?raw=true)
